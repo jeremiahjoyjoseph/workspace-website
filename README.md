@@ -1,22 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BHIVE Workspace Website
+
+A modern website for BHIVE Workspace built with Next.js and Tailwind CSS.
+
+## Project Structure
+
+```
+src/
+├── app/              # Next.js app directory
+├── components/       # React components
+├── types/           # TypeScript type definitions
+├── lib/             # Utility functions
+└── public/          # Static assets
+```
 
 ## Getting Started
 
-First, run the development server:
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Data Source
+
+The project uses data from the [bhive-interview-project-data](https://github.com/MujtabaKably/bhive-interview-project-data) repository:
+
+- Images and icons are in the `assets` folder
+- Space and package details are in the `data` folder
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm start` - Start production server
+- `npm run lint` - Run ESLint
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
