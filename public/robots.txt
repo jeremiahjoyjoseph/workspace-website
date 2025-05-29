@@ -1,0 +1,11 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://bhive-workspace.vercel.app/sitemap.xml
+
+# Disallow crawling of private or admin areas
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/ 

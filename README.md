@@ -75,6 +75,19 @@ The project uses data from the [bhive-interview-project-data](https://github.com
 - Consistent spacing and layout patterns
 - Responsive breakpoints for different screen sizes
 
+## SEO Implementation
+
+The website has been optimized for search engines with the following features:
+
+- Comprehensive metadata configuration including title, description, and keywords
+- Open Graph and Twitter card metadata for better social media sharing
+- Robots meta tags for optimal search engine crawling
+- XML sitemap for better content discovery
+- robots.txt file for crawler instructions
+- Proper semantic HTML structure
+- Mobile-friendly responsive design
+- Fast loading times with optimized assets
+
 ## Notes
 
 - Font sizes are optimized for readability across devices
