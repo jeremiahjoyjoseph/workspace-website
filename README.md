@@ -4,7 +4,7 @@ A modern, responsive website for BHIVE Workspace showcasing their coworking spac
 
 ## Live Demo
 
-Visit the live website at: [https://bhive-assignment-k5vz7ky8c-jeremiahjoyjosephs-projects.vercel.app](https://bhive-assignment-k5vz7ky8c-jeremiahjoyjosephs-projects.vercel.app)
+Visit the live website at: [workspace-website](https://bhive-assignment-eight.vercel.app/)
 
 ## Features
 
