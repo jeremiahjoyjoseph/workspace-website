@@ -39,7 +39,7 @@ const AppDownload = () => {
           alt="mockup"
           height={100}
           width={100}
-          className="h-auto w-[400px] absolute bottom-[-8%] left-0 z-10"
+          className="h-auto w-[400px] absolute bottom-[-8%] left-0 z-10 transition-transform duration-300 hover:-translate-y-2"
         />
         <div className="bg-background rounded-md border-[0.5px] border-r-[1px] border-gray-5/60 w-full flex flex-col justify-center items-end p-[20px] relative h-[200px] pt-[40px]">
           <div className="flex flex-col items-baseline gap-[20px] max-w-[40%] xl:max-w-[50%]">

@@ -1,5 +1,6 @@
 import { getImage } from "@/lib/getAsset";
 import Image from "next/image";
+import AnimatedText from "./AnimatedText";
 
 const Hero = () => {
   return (
@@ -29,12 +30,20 @@ const Hero = () => {
       </section>
       <section className="w-full hidden md:flex relative md:h-[400px] lg:h-[500px] xl:h-[580px]">
         <h1 className="text-text-primary leading-[100%] tracking-[-1px] font-bold z-99 container-padding max-w-[70%] pt-[100px] hidden xl:block">
-          Host your meeting with world-class amenities.
-          <br /> Starting at <span className="text-primary">₹199/-!</span>
+          <AnimatedText>
+            Host your meeting with world-class amenities.
+          </AnimatedText>
+          <AnimatedText>
+            Starting at <span className="text-primary">₹199/-!</span>
+          </AnimatedText>
         </h1>
         <p className="text-text-primary leading-[100%] tracking-[-1px] font-bold z-99 container-padding max-w-[70%] pt-[100px] hidden md:block xl:hidden text-[44px]">
-          Host your meeting with world-class amenities.
-          <br /> Starting at <span className="text-primary">₹199/-!</span>
+          <AnimatedText>
+            Host your meeting with world-class amenities.
+          </AnimatedText>
+          <AnimatedText>
+            Starting at <span className="text-primary">₹199/-!</span>
+          </AnimatedText>
         </p>
         <Image
           src={getImage("hero-bg-left.svg") || ""}
