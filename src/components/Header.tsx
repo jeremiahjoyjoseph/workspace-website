@@ -22,7 +22,7 @@ const Header = () => {
           <nav className="flex items-center space-x-4">
             <a
               href="tel:+1234567890"
-              className="shadow-[4px_4px_14px_rgba(0,0,0,0.06)] rounded-[4px] h-9 w-9 flex items-center justify-center border border-primary"
+              className="shadow-[4px_4px_14px_rgba(0,0,0,0.06)] rounded-[4px] h-9 w-9 flex items-center justify-center border border-primary transition-transform duration-200 hover:translate-x-1 hover:-translate-y-1"
             >
               <Image
                 src={getIcon("call.svg") || ""}

@@ -49,7 +49,7 @@ const SpacesOverview = () => {
             </div>
 
             <div className="flex gap-[12px] mt-[21px]">
-              <div className="flex flex-1 bg-background-secondary rounded-md p-[8px] border-[#E5DDDD] border-[0.5px] align-middle justify-between">
+              <div className=" group flex flex-1 bg-background-secondary rounded-md p-[8px] border-[#E5DDDD] border-[0.5px] align-middle justify-between">
                 <div className="flex flex-col gap-[6px]">
                   <p className="text-[12px] text-text-secondary mt-1">
                     Day Pass
@@ -68,10 +68,10 @@ const SpacesOverview = () => {
                   alt="day pass"
                   width={18}
                   height={18}
+                  className="transition-transform duration-200 group-hover:translate-x-1"
                 />
               </div>
-
-              <div className="flex flex-1 bg-btn-primary rounded-md p-[8px] border-[#FFC422] border-[0.5px] items-center justify-between relative">
+              <div className="group flex flex-1 bg-btn-primary rounded-md p-[8px] border-[#FFC422] border-[0.5px] items-center justify-between relative">
                 <div className="flex flex-col gap-[6px]">
                   <p className="text-[12px] text-text-secondary mt-1">
                     Day Pass
@@ -90,6 +90,7 @@ const SpacesOverview = () => {
                   alt="day pass"
                   width={18}
                   height={18}
+                  className="transition-transform duration-200 group-hover:translate-x-1"
                 />
                 <div className="flex items-center justify-center bg-text-primary rounded-md absolute top-[-5px] left-[calc(50%-32px)] h-[16px] w-[64px] z-10">
                   <p className="font-medium text-[8px] text-[#FFFDF7]">
