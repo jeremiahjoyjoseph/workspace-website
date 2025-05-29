@@ -14,7 +14,7 @@ const SpacesOverview = () => {
   }, []);
 
   return (
-    <section className="w-full mt-[50px] container-padding">
+    <section className="w-full mt-[50px] container-padding xl:mt-[120px]">
       <SectionHeader title="Our Spaces" />
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[16px] md:gap-[40px] mt-[30px]">
         {spaces.map((space) => (

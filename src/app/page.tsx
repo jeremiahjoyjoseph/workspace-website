@@ -5,7 +5,7 @@ import AppDownload from "@/components/AppDownload";
 
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <Hero />
       <WhyChooseUs />
       <SpacesOverview />

@@ -68,10 +68,6 @@ h6 {
   font-size: var(--font-size-h6);
 }
 
-main {
-  @apply max-w-none mx-auto px-0 sm:px-0 lg:px-0 py-0;
-}
-
 .container-padding {
   @apply px-[20px] lg:px-[120px];
 }
