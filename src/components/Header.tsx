@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getAsset, getIcon } from "@/lib/getAsset";
+import { getImage, getIcon } from "@/lib/getAsset";
 import Image from "next/image";
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
               <Image
-                src={getAsset("logo.svg") || ""}
+                src={getImage("logo.svg") || ""}
                 alt="BHive Logo"
                 width={100}
                 height={32}

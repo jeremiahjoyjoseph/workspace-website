@@ -1,0 +1,36 @@
+{
+  "features": [
+    {
+      "title": "Community Events",
+      "icon": "community.svg"
+    },
+    {
+      "title": "Gym Facilities",
+      "icon": "gym.svg"
+    },
+    {
+      "title": "High-Speed WiFi",
+      "icon": "wifi.svg"
+    },
+    {
+      "title": "Café & Tea Bar",
+      "icon": "cafe.svg"
+    },
+    {
+      "title": "Affordable",
+      "icon": "affordable.svg"
+    },
+    {
+      "title": "Comfort Lounges",
+      "icon": "lounge.svg"
+    },
+    {
+      "title": "Quick Booking",
+      "icon": "booking.svg"
+    },
+    {
+      "title": "Sports Area",
+      "icon": "sports.svg"
+    }
+  ]
+}
