@@ -2,6 +2,10 @@
 
 A modern, responsive website for BHIVE Workspace showcasing their coworking spaces and services. Built with Next.js 14, TypeScript, and Tailwind CSS.
 
+## Live Demo
+
+Visit the live website at: [https://bhive-assignment-k5vz7ky8c-jeremiahjoyjosephs-projects.vercel.app](https://bhive-assignment-k5vz7ky8c-jeremiahjoyjosephs-projects.vercel.app)
+
 ## Features
 
 - **Hero Section**: Engaging landing page with key value propositions
