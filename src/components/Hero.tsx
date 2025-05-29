@@ -5,13 +5,20 @@ import AnimatedText from "./AnimatedText";
 const Hero = () => {
   return (
     <section>
-      <section className="w-full md:hidden relative">
+      <section className="w-full md:hidden relative overflow-hidden">
         <Image
-          src={getImage("hero-bg-mobile.svg") || ""}
+          src={getImage("bg-mobile-coworker.svg") || ""}
           alt="Hero"
           width={100}
           height={100}
-          className="w-full h-auto"
+          className="w-full h-auto z-9"
+        />
+        <Image
+          src={getImage("bg-mobile-coworker-bg.svg") || ""}
+          alt="Hero"
+          width={100}
+          height={100}
+          className="w-full h-auto absolute bottom-[100px] left-[50px]"
         />
         <div className="relative h-[120px]">
           <Image
@@ -28,7 +35,7 @@ const Hero = () => {
           </h4>
         </div>
       </section>
-      <section className="w-full hidden md:flex relative md:h-[400px] lg:h-[500px] xl:h-[580px]">
+      <section className="w-full hidden md:flex relative md:h-[400px] lg:h-[500px] xl:h-[580px] overflow-hidden">
         <h1 className="text-text-primary leading-[100%] tracking-[-1px] font-bold z-99 container-padding max-w-[70%] pt-[100px] hidden xl:block">
           <AnimatedText>
             Host your meeting with world-class amenities.

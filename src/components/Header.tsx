@@ -9,13 +9,24 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <Image
-                src={getImage("logo.svg") || ""}
-                alt="BHive Logo"
-                width={100}
-                height={32}
-                className="mr-2"
-              />
+              <div className="hidden md:block">
+                <Image
+                  src={getImage("logo.svg") || ""}
+                  alt="BHive Logo"
+                  width={100}
+                  height={32}
+                  className="mr-2"
+                />
+              </div>
+              <div className="block md:hidden">
+                <Image
+                  src={getImage("logo-mobile.svg") || ""}
+                  alt="BHive Logo"
+                  width={80}
+                  height={26}
+                  className="mr-2"
+                />
+              </div>
             </Link>
           </div>
 
